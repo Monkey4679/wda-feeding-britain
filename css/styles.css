@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: rgb(54, 236, 236);
+}
+
+main{
+    width:calc(75% - 60px);
+    float:left;
+    padding:30px;
+    background: white;
+}
+aside{
+    width: calc(25% - 60px);
+    float: left;
+    border-left: none;
+    padding:30px;
+    background: white;
+}
+footer{
+    clear:both;
+    padding:30px;
+    background: white;
+} 
+
+.logoContainer{
+    float: left;
+    width: 200px;
+
+
+}
+
+.logoContainer .logo{
+    max-width: 100%;
+}
+
+nav{
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    background: rgb(13, 108, 185);
+
+}
+
+li{
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+nav li a{
+    color: white;
+}
+
+li.active{
+    background:rgb(10, 75, 117);
+}
+
+.clearfix{
+    clear: both;
+}
+
+.heroImage{
+    width: 100%;
+}
+
+
+.heroImage .imageContainer{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://images.pexels.com/photos/50577/hedgehog-animal-baby-cute-50577.jpeg?);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+
+}
+
+.heroImage .imageContainer .imageCaption{
+    position:absolute;
+    padding:20px;
+    background:rgb(68, 11, 114);
+    color:white;
+    bottom:30px;
+    left:30px;
+}
+
+.mainContentContainer{
+    max-width:500px;
+    margin:0 auto;
+    background:white;
+} 
